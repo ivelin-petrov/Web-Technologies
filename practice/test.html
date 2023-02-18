@@ -1,0 +1,23 @@
+<!-- XAMPP - htdocs - www-kn-2022 -->
+<!-- http://localhost/www-kn-2022/myserver.php/ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="./scripts/test.js" defer></script>
+    </head>
+    <body>
+        <div id="content">
+            <h1>My server</h1>
+            <button id="see-owners">Виж собствениците на животните</button>
+            <div id="owners-container"></div>
+
+            <form id="file-upload" method="POST" action="./testfileupload.php" enctype="multipart/form-data">
+                <input type="file" name="my-file" accept="image/*"/>
+                <input type="submit" value="Import file" />
+            </form>
+        </div>
+        <div id="sidebar"> </div>
+    </body>
+</html>
