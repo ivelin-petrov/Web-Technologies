@@ -1,3 +1,3 @@
 # Web-Technologies
 
-The websites from folder 'practice' and 'project' use XAMPP (Apache + MySQL modules)
+The websites from folders 'practice' and 'project' use XAMPP (Apache + MySQL modules)
