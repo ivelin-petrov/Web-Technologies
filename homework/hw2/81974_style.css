@@ -1,0 +1,45 @@
+#name, #pass, #email, input[type=number], #dropdown, #submit {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(195,205,192);
+    border-radius: 0px;
+}
+
+#dropdown, #submit {
+    width: 84%;
+}
+
+#name:hover, #pass:hover, #email:hover, input[type=number]:hover, #dropdown:hover {
+    border-color: rgb(71,129,41);
+}
+
+#submit {
+    color: rgb(71,129,41);
+    background-color: rgb(207,231,217);
+}
+
+#submit:hover {
+    color: rgb(207,231,217);
+    background-color: rgb(71,129,41);
+    border-color: rgb(207,231,217);
+}
+
+#form {
+    display: inline-block;
+    width: 350px;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(222,253,241);
+    border: 1px solid rgb(71,129,41);
+    text-align: center;
+}
+
+section.form{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+body {
+    background-color: rgb(222,253,241);
+}
