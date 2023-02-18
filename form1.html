@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> form </title>
+</head>
+<body>
+    <form id="form">
+        <legend> Предмет <input required id="subject" name="subject" type="text" maxlength="150" placeholder="Subject"> </legend>
+        <legend> Преподавател <input required id="teacher" name="teacher" type="text" maxlength="200" placeholder="Teacher"> </legend>
+        <legend> Описание <input required id="description" name="description" type="text" minlength="10" placeholder="Description"> </legend>
+        <legend> Група
+            <select>
+                <optgroup>
+                    <option value="" disabled selected> select </option>
+                    <option value="1"> М </option>
+                    <option value="2"> ПМ </option>
+                    <option value="3"> ОКН </option>
+                    <option value="4"> ЯКН </option>
+                </optgroup>
+            </select>
+        </legend>    
+        <label> Кредити <input type="number" min="0" step="1" placeholder="Credits"> </label>
+        <input type="submit" value="Въведи">
+    </form>
+</body>
+</html>
