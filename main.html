@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cloud services comparison</title>
+        <meta charset="UTF-8">
+        <script src="./scripts/script.js" defer></script>
+        <link href="./styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="content">
+            <section id="buttons">
+                <form id="file-upload">
+                    <input id="file-input" type="file" accept=".csv"/>
+                    <button id="import-data" type="button" onclick="showButtonsAndSearch()">Import</button>
+                </form>
+        
+                <button id="load-data" onclick="showElements()">Load data</button>
+        
+                <form id="export-form">
+                    <button id="export-data" type="reset" onclick="prepareExportData()" title="Select columns from the table to export">Export</button>
+                    <input type="radio" id="ef0" value="0">
+                    <label for="ef0">Provider</label>
+                    <input type="radio" id="ef1" value="1">
+                    <label for="ef1">Instance</label>
+                    <input type="radio" id="ef2" value="2">
+                    <label for="ef2">vCPUs</label>
+                    <input type="radio" id="ef3" value="3">
+                    <label for="ef3">Memory</label>
+                    <input type="radio" id="ef4" value="4">
+                    <label for="ef4">Storage</label>
+                    <input type="radio" id="ef5" value="5">
+                    <label for="ef5">Network</label>
+                    <input type="radio" id="ef6" value="6">
+                    <label for="ef6">Price</label>
+                    <input type="radio" id="ef7" value="7">
+                    <label for="ef7">Region</label>
+                </form>
+            </section>
+
+            <form id="form">
+                <label id="form-info">Specific cloud service search</label>
+                <input id="instance" type="text" placeholder="Instance">
+                <select id="price" title="Prices presented based on daily/weekly/monthly/annual basis">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="annually">Annually</option>
+                </select>
+                <input id="region" type="text" placeholder="Region">
+                <button id="search" type="button" onclick="showElements()">Search</button>
+            </form>
+
+            <input id="input0" type="text" onkeyup="UtilityFunctions.searchFunction(0)" placeholder="Search for provider...">
+            <input id="input1" type="text" onkeyup="UtilityFunctions.searchFunction(1)" placeholder="Filter by instance...">
+            <input id="input7" type="text" onkeyup="UtilityFunctions.searchFunction(7)" placeholder="Filter by region...">
+            
+            <table id="item-container"></table>
+            <aside id="bottom"></aside>
+        </section>
+        
+        <nav id="navigation">
+            <img id="pinetree" src="./images/pinetree.png" width="50" />
+            <h2 id="navheader">Cloud services comparison</h2>
+
+            <section id="nav-buttons">
+                <button id="pc-button">Check price changes</button>
+                <a id="up" href="#file-input">&uarr;</a>
+                <a id="down" href="#bottom">&darr;</a>
+            </section>
+        </nav>
+        
+        <section id="popup">
+            <div id="popup-content">
+                <div id="popup-header">
+                    <span id="close">&times;</span>
+                    <h2>Price changes in the cloud services since the last update</h2>
+                </div>
+                
+                <div id="popup-body"><img src="./images/cobweb.png" width="500" /></div>
+                
+                <div id="popup-footer">
+                    <h3>*price changes calculated on a daily basis (currency: USD)</h3>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer"></footer>
+    </body>
+</html>
