@@ -1,0 +1,130 @@
+Amazon Web Services (AWS),m6in.large,2,8,EBS-Only,25,4.3130,Western United States
+Amazon Web Services (AWS),m6in.xlarge,4,16,EBS-Only,30,8.6263,Western United States
+Amazon Web Services (AWS),m6in.2xlarge,8,32,EBS-Only,40,17.2526,Western United States
+Amazon Web Services (AWS),m6in.4xlarge,16,64,EBS-Only,50,34.5053,Western United States
+Amazon Web Services (AWS),m6in.8xlarge,32,128,EBS-Only,50,69.0106,Western United States
+Amazon Web Services (AWS),m6in.12xlarge,48,192,EBS-Only,75,103.5158,Western United States
+Amazon Web Services (AWS),m6in.16xlarge,64,256,EBS-Only,100,138.0211,Western United States
+Amazon Web Services (AWS),m6in.24xlarge,96,384,EBS-Only,150,207.0317,Western United States
+Amazon Web Services (AWS),m6in.32xlarge,128,512,EBS-Only,200,276.0420,Western United States
+Amazon Web Services (AWS),m6in.8xlarge,32,128,EBS-Only,50,69.0106,Northeastern United States
+Amazon Web Services (AWS),m6in.12xlarge,48,192,EBS-Only,75,103.5158,Northeastern United States
+Amazon Web Services (AWS),m6in.16xlarge,64,256,EBS-Only,100,138.0211,Northeastern United States
+Amazon Web Services (AWS),m6in.24xlarge,96,384,EBS-Only,150,207.0317,Northeastern United States
+Amazon Web Services (AWS),m6in.32xlarge,128,512,EBS-Only,200,276.0420,Northeastern United States
+Amazon Web Services (AWS),m6idn.large,2,8,1x118 NVMe SSD,25,4.6140,Western United States
+Amazon Web Services (AWS),m6idn.xlarge,4,16,1x237 NVMe SSD,30,9.2278,Western United States
+Amazon Web Services (AWS),m6idn.2xlarge,8,32,1x474 NVMe SSD,40,18.4555,Western United States
+Amazon Web Services (AWS),m6idn.4xlarge,16,64,1x950 NVMe SSD,50,36.9110,Western United States
+Amazon Web Services (AWS),m6idn.8xlarge,32,128,1x1900 NVMe SSD,50,73.8223,Western United States
+Amazon Web Services (AWS),m6idn.large,2,8,1x118 NVMe SSD,25,4.6140,Southwestern United States
+Amazon Web Services (AWS),m6idn.xlarge,4,16,1x237 NVMe SSD,30,9.2278,Southwestern United States
+Amazon Web Services (AWS),m6idn.2xlarge,8,32,1x474 NVMe SSD,40,18.4555,Southwestern United States
+Amazon Web Services (AWS),m6idn.4xlarge,16,64,1x950 NVMe SSD,50,36.9110,Southwestern United States
+Amazon Web Services (AWS),m6idn.8xlarge,32,128,1x1900 NVMe SSD,50,73.8223,Southwestern United States
+Amazon Web Services (AWS),m6idn.12xlarge,48,192,2x1425 NVMe SSD,75,110.7334,Southwestern United States
+Amazon Web Services (AWS),m6idn.16xlarge,64,256,2x1900 NVMe SSD,100,147.6446,Southwestern United States 
+Amazon Web Services (AWS),m6idn.24xlarge,96,384,4x1425 NVMe SSD,150,221.4670,Southwestern United States
+Amazon Web Services (AWS),m6idn.32xlarge,128,512,4x1900 NVMe SSD,200,295.2893,Southwestern United States
+Amazon Web Services (AWS),m5.large,2,8,EBS-Only,10,4.5120,Midwestern United States
+Amazon Web Services (AWS),m5.xlarge,4,16,EBS-Only,10,9.0240,Midwestern United States
+Amazon Web Services (AWS),m5.2xlarge,8,32,EBS-Only,10,14.6400,Midwestern United States
+Amazon Web Services (AWS),m5.4xlarge,16,64,EBS-Only,10,29.2800,Midwestern United States
+Amazon Web Services (AWS),m5.8xlarge,32,128,EBS Only,10,58.5600,Midwestern United States
+Amazon Web Services (AWS),u-3tb1.56xlarge,224,3072,EBS-Only,50,651.0598,Midwestern United States
+Amazon Web Services (AWS),u-6tb1.56xlarge,224,6144,EBS-Only,100,933.6043,Midwestern United States
+Amazon Web Services (AWS),u-6tb1.112xlarge,448,6144,EBS-Only,100,1302.1195,Midwestern United States
+Amazon Web Services (AWS),u-6tb1.metal,448,6144,EBS-Only,100,807.65,Midwestern United States
+Amazon Web Services (AWS),u-9tb1.112xlarge,448,9216,EBS-Only,100,1706.0897,Midwestern United States
+Amazon Web Services (AWS),u-9tb1.metal,448,9216,EBS-Only,100,1211.38,Midwestern United States
+Amazon Web Services (AWS),u-12tb1.112xlarge,448,12288,EBS-Only,100,2109.9221,Midwestern United States
+Amazon Web Services (AWS),u-12tb1.metal,448,12288,EBS-Only,100,1615.06,Midwestern United States
+Amazon Web Services (AWS),u-18tb1.112xlarge,448,18432,EBS-Only,100,2917.1743,Midwestern United States
+Amazon Web Services (AWS),u-18tb1.metal,448,18432,EBS-Only,100,1263.17,Southeastern United States
+Amazon Web Services (AWS),u-24tb1.112xlarge,448,24576,EBS-Only,100,3724.7018,Southeastern United States
+Amazon Web Services (AWS),u-24tb1.metal,448,24576,EBS-Only,100,1684.22,Southeastern United States
+Amazon Web Services (AWS),u-12tb1.metal,448,12288,EBS-Only,100,1615.06,Northeastern United States
+Amazon Web Services (AWS),u-18tb1.112xlarge,448,18432,EBS-Only,100,2917.1743,Northeastern United States
+Amazon Web Services (AWS),u-18tb1.metal,448,18432,EBS-Only,100,1263.17,Northeastern United States
+Amazon Web Services (AWS),u-24tb1.112xlarge,448,24576,EBS-Only,100,3724.7018,Northeastern United States
+Amazon Web Services (AWS),u-24tb1.metal,448,24576,EBS-Only,100,1684.22,Northeastern United States
+Amazon Web Services (AWS),m5d.large,2,8,1x75 NVMe SSD,10,3.9120,Western United States
+Amazon Web Services (AWS),m5d.xlarge,4,16,1x150 NVMe SSD,10,7.8240,Southeastern United States
+Amazon Web Services (AWS),m5d.2xlarge,8,32,1x300 NVMe SSD,10,15.6720,Southeastern United States
+Amazon Web Services (AWS),hpc6id.32xlarge,64,1024,4x3800 NVMe SSD,25,1809.884,Northeastern United States
+Amazon Web Services (AWS),hpc6id.32xlarge,64,1024,4x3800 NVMe SSD,25,1809.884,Southeastern United States
+Amazon Web Services (AWS),inf2.xlarge,4,16,EBS-Only,15,3.4560,Southeastern United States
+Amazon Web Services (AWS),inf2.8xlarge,32,128,EBS-Only,25,28.3200,Southeastern United States
+Amazon Web Services (AWS),inf2.24xlarge,96,384,EBS-Only,50,71.3760,Southeastern United States
+Amazon Web Services (AWS),inf2.48xlarge,192,768,EBS-Only,100,131.3760,Southeastern United States
+Amazon Web Services (AWS),m5.large,2,8,EBS-Only,10,4.5120,Northeastern United States
+Amazon Web Services (AWS),m5.xlarge,4,16,EBS-Only,10,9.0240,Northeastern United States
+Amazon Web Services (AWS),m5.2xlarge,8,32,EBS-Only,10,14.6400,Northeastern United States
+Amazon Web Services (AWS),m5.4xlarge,16,64,EBS-Only,10,29.2800,Northeastern United States
+Amazon Web Services (AWS),m5.8xlarge,32,128,EBS Only,10,58.5600,Northeastern United States
+Amazon Web Services (AWS),m5.12xlarge,48,192,EBS-Only,12,87.8400,Northeastern United States
+Amazon Web Services (AWS),m5.16xlarge,64,256,EBS Only,20,117.0960,Northeastern United States
+Amazon Web Services (AWS),m5.24xlarge,96,384,EBS-Only,25,175.6560,Northeastern United States
+Amazon Web Services (AWS),m5.metal,96,384,EBS-Only,25,175.6560,Northeastern United States
+Amazon Web Services (AWS),m5.12xlarge,48,192,EBS-Only,12,87.8400,Southeastern United States
+Amazon Web Services (AWS),m5.16xlarge,64,256,EBS Only,20,117.0960,Southeastern United States
+Amazon Web Services (AWS),m5.24xlarge,96,384,EBS-Only,25,175.6560,Southeastern United States
+Amazon Web Services (AWS),m5.metal,96,384,EBS-Only,25,175.6560,Southeastern United States
+Amazon Web Services (AWS),m5d.xlarge,4,16,1x150 NVMe SSD,10,7.8240,Western United States
+Amazon Web Services (AWS),m5d.2xlarge,8,32,1x300 NVMe SSD,10,15.6720,Western United States
+Amazon Web Services (AWS),m5d.4xlarge,16,64,2x300 NVMe SSD,10,31.3440,Western United States
+Amazon Web Services (AWS),m5d.8xlarge,32,128,2x600 NVMe SSD,10,62.6640,Western United States
+Amazon Web Services (AWS),m5d.12xlarge,48,192,2x900 NVMe SSD,12,94.0080,Western United States
+Amazon Web Services (AWS),m5d.16xlarge,64,256,4x600 NVMe SSD,20,125.3280,Western United States
+Amazon Web Services (AWS),m5d.24xlarge,96,384,4x900 NVMe SSD,25,187.9920,Western United States
+Amazon Web Services (AWS),m5d.metal,96,384,4x900 NVMe SSD,25,187.9920,Western United States
+Amazon Web Services (AWS),m5d.large,2,8,1x75 NVMe SSD,10,3.9120,Southwestern United States
+Amazon Web Services (AWS),m5d.xlarge,4,16,1x150 NVMe SSD,10,7.8240,Southwestern United States
+Amazon Web Services (AWS),m5d.2xlarge,8,32,1x300 NVMe SSD,10,15.6720,Southwestern United States
+Amazon Web Services (AWS),m5d.4xlarge,16,64,2x300 NVMe SSD,10,31.3440,Southwestern United States
+Amazon Web Services (AWS),m5d.8xlarge,32,128,2x600 NVMe SSD,10,62.6640,Southwestern United States
+Amazon Web Services (AWS),m5d.12xlarge,48,192,2x900 NVMe SSD,12,94.0080,Northeastern United States
+Amazon Web Services (AWS),m5d.16xlarge,64,256,4x600 NVMe SSD,20,125.3280,Northeastern United States
+Amazon Web Services (AWS),m5d.24xlarge,96,384,4x900 NVMe SSD,25,187.9920,Northeastern United States
+Amazon Web Services (AWS),m5d.metal,96,384,4x900 NVMe SSD,25,187.9920,Northeastern United States
+Microsoft Azure,B4ms,4,16,EBS-Only,12.5,3.984,Western United States
+Microsoft Azure,F4s v2,4,8,EBS-Only,12.5,4.056,Western United States
+Google Cloud Platform (GCP),e2-standard-4,4,16,EBS-Only,12.5,3.62208,Western United States
+Google Cloud Platform (GCP),c2-standard-4,4,16,EBS-Only,12.5,5.6424,Western United States
+Oracle,VM.Standard3.Flex,4,16,EBS-Only,12.5,4.416,Western United States
+Oracle,VM.Optimized3.Flex,4,8,EBS-Only,12.5,5.472,Western United States
+Microsoft Azure,B4ms,4,16,EBS-Only,12.5,3.984,Northeastern United States
+Microsoft Azure,F4s v2,4,8,EBS-Only,12.5,4.056,Northeastern United States
+Google Cloud Platform (GCP),e2-standard-4,4,16,EBS-Only,12.5,3.62208,Northeastern United States
+Google Cloud Platform (GCP),c2-standard-4,4,16,EBS-Only,12.5,5.6424,Northeastern United States
+Oracle,VM.Standard3.Flex,4,16,EBS-Only,12.5,4.416,Northeastern United States
+Oracle,VM.Optimized3.Flex,4,8,EBS-Only,12.5,5.472,Northeastern United States
+Microsoft Azure,B4ms,4,16,EBS-Only,12.5,3.984,Southeastern United States
+Microsoft Azure,F4s v2,4,8,EBS-Only,12.5,4.056,Southeastern United States
+Google Cloud Platform (GCP),e2-standard-4,4,16,EBS-Only,12.5,3.62208,Southeastern United States
+Google Cloud Platform (GCP),c2-standard-4,4,16,EBS-Only,12.5,5.6424,Southeastern United States
+Oracle,VM.Standard3.Flex,4,16,EBS-Only,12.5,4.416,Southeastern United States
+Oracle,VM.Optimized3.Flex,4,8,EBS-Only,12.5,5.472,Southeastern United States
+Amazon Web Services (AWS),c6a.32xlarge,128,256,EBS-Only,50,219.0408,Southeastern United States
+Amazon Web Services (AWS),c6a.48xlarge,192,384,EBS-Only,50,328.5614,Southeastern United States
+Amazon Web Services (AWS),c5ad.12xlarge,48,96,2x900 NVMe SSD,12,84.1920,Southeastern United States
+Amazon Web Services (AWS),c5ad.16xlarge,64,128,2x1200 NVMe SSD,20,112.2720,Southeastern United States
+Amazon Web Services (AWS),c5ad.24xlarge,96,192,2x1900 NVMe SSD,20,168.4080,Southeastern United States
+Amazon Web Services (AWS),c6a.32xlarge,128,256,EBS-Only,50,219.0408,Southwestern United States
+Amazon Web Services (AWS),c6a.48xlarge,192,384,EBS-Only,50,328.5614,Southwestern United States
+Amazon Web Services (AWS),c5ad.12xlarge,48,96,2x900 NVMe SSD,12,84.1920,Northeastern United States
+Amazon Web Services (AWS),c5ad.16xlarge,64,128,2x1200 NVMe SSD,20,112.2720,Northeastern United States
+Amazon Web Services (AWS),c5ad.24xlarge,96,192,2x1900 NVMe SSD,20,168.4080,Northeastern United States
+Amazon Web Services (AWS),x2iezn.8xlarge,32,1.024,EBS-Only,75,133.9104,Western United States
+Amazon Web Services (AWS),x2iezn.12xlarge,48,1.536,EBS-Only,100,200.8656,Western United States
+Amazon Web Services (AWS),z1d.6xlarge,24,192,1x900 NVMe SSD,10,60.2400,Midwestern United States
+Amazon Web Services (AWS),z1d.12xlarge,48,384,2x900 NVMe SSD,25,120.4800,Midwestern United States
+Amazon Web Services (AWS),x2iezn.8xlarge,32,1.024,EBS-Only,75,133.9104,Midwestern United States
+Amazon Web Services (AWS),x2iezn.12xlarge,48,1.536,EBS-Only,100,200.8656,Midwestern United States
+Amazon Web Services (AWS),m6in.large,2,8,EBS-Only,25,4.3130,Midwestern United States
+Amazon Web Services (AWS),m6in.xlarge,4,16,EBS-Only,30,8.6263,Midwestern United States
+Amazon Web Services (AWS),m6in.2xlarge,8,32,EBS-Only,40,17.2526,Midwestern United States
+Amazon Web Services (AWS),m6in.4xlarge,16,64,EBS-Only,50,34.5053,Midwestern United States
+Amazon Web Services (AWS),m6in.8xlarge,32,128,EBS-Only,50,69.0106,Midwestern United States
+Amazon Web Services (AWS),m6in.12xlarge,48,192,EBS-Only,75,103.5158,Midwestern United States
+Amazon Web Services (AWS),m6in.12xlarge,48,192,EBS-Only,75,103.5158,Southeastern United States

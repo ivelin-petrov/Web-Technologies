@@ -1,0 +1,281 @@
+body {
+    margin: 0px;
+    background-color: rgb(253, 248, 237);
+    font-family: Calibri;
+}
+
+#content {
+    margin: 80px 10px 80px 10px;
+}
+
+#navheader {
+    position: fixed;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#form {
+    padding: 6px 0px 12px 0px;
+    display: none;
+}
+
+#form-info {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 6px 10px 8px 10px;
+    background-color: rgb(62, 74, 27);
+    color: rgb(255, 255, 255);
+}
+
+#instance, #price, #region {
+    font-family: Calibri;
+    font-size: 16px;
+    border: 1px solid rgb(137, 137, 137);
+    border-radius: 5px;
+    padding: 12px 10px 12px 10px;
+}
+
+#nav-buttons {
+    position: fixed;
+    display: inline;
+    margin-top: 6px;
+    margin-left: 300px; 
+}
+
+#search, #pc-button {
+    font-family: Calibri;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 74, 27);
+    text-align: center;
+    cursor: pointer;
+}
+
+#pc-button {
+    display: none;
+    margin-right: 10px;
+    background-color: rgb(57, 36, 20);
+}
+
+#search:hover, #pc-button:hover {
+    background-color: rgb(30, 17, 8);
+}
+
+#up, #down {
+    font-family: Calibri;
+    display: none;
+    margin-left: 3px;
+    border-radius: 20px;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255,255,255);
+    cursor: pointer;
+}
+
+#up:hover, #down:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+#file-upload {
+    display: inline-block;
+}
+
+#file-input {
+    font-family: Calibri;
+    border-radius: 5px;
+    padding: 10px 10px 8px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 57, 30);
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+#file-input:hover {
+    background-color: rgb(31, 33, 18);
+}
+
+#import-data, #load-data, #export-data {
+    font-family: Calibri;
+    font-size: 16px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 57, 30);
+    text-align: center;
+    cursor: pointer;
+    margin: 7px 0px;
+}
+
+#load-data, #export-form {
+    display: none;
+    margin-left: 3px;
+}
+
+#import-data:hover, #load-data:hover, #export-data:hover {
+    background-color: rgb(31, 33, 18);
+}
+
+a {
+    text-decoration: none;
+}
+
+b {
+    color: rgb(199, 0, 0);
+}
+
+strong {
+    color: rgb(0, 104, 0);
+}
+
+#item-container {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+#item-container th {
+    background-color: rgb(126, 110, 19);
+    color:rgb(255, 255, 255);
+}
+
+#item-container th:hover {
+    background-color: rgb(88, 77, 14);
+    cursor: pointer;
+}
+
+#item-container th, td {
+    border-bottom: 0.5px solid rgb(137, 137, 137);
+    text-align: left;
+    padding: 8px;
+}
+
+#item-container tr:nth-child(even) {
+    background-color: rgb(232, 232, 232);
+}
+
+#item-container tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+#item-container td:nth-child(2) {
+    color: rgb(126, 110, 19);
+}
+
+#input0 {
+    font-family: Calibri;
+    display: none;
+    background-image: url('http://localhost/project/images/searchicon.png');
+    background-repeat: no-repeat;
+    background-size: 44px;
+    width: 23.5%;
+    font-size: 16px;
+    padding: 12px 20px 12px 50px;
+    border: 1px solid rgb(137, 137, 137);
+    margin-bottom: 12px;
+}
+
+#input1, #input7 {
+    font-family: Calibri;
+    display: none;
+    width: 10%;
+    font-size: 16px;
+    padding: 12px 20px 12px 10px;
+    border: 1px solid rgb(137, 137, 137);
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(75, 90, 32);
+    color: rgb(232, 232, 232);
+    padding: 5px 0 10px 20px;
+}
+
+#navigation:hover {
+    background-color: rgb(85, 101, 38);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(75, 90, 32);
+}
+
+#footer:hover {
+    background-color: rgb(62, 74, 27);
+}
+
+#footer-container {
+    padding: 0 20px 0 0;
+    text-align: right;
+    color: rgb(232, 232, 232);
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#popup-content {
+    position: relative;
+    background-color: rgb(255,255,255);
+    margin: auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+#close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover, #close:focus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup-header {
+    padding: 2px 16px;
+    background-color: rgba(10,137,137);
+    color: rgb(255,255,255);
+}
+
+#popup-body {
+    font-size: 20px;
+    padding: 2px 16px;
+}
+
+#popup-footer {
+    padding: 2px 16px;
+    background-color: rgba(10,137,137);
+    color: rgb(255,255,255);
+}
