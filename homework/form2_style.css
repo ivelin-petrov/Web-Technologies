@@ -1,0 +1,48 @@
+input[type=text], input[type=password] {
+    width: 94.5%;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    padding: 8px;
+}
+
+input[type=text]::placeholder, input[type=password]::placeholder {
+    color: #c1bdc5;
+}
+
+input[type=submit] {
+    width: 100%;
+    margin: 8px 0;
+    margin-bottom: 0px;
+    border: none;
+    padding: 9px;
+    color: white;
+    background-color: rgb(151,191,13);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(121, 161, 13);
+}
+
+.myDiv {
+    width: 350px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f5f5f0;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+#form legend {
+    font-family: 'Arial';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(151,191,13);
+    margin-top: -21px;
+    margin-left: -21px;
+    margin-right: -21px;
+    margin-bottom: 15px;
+    padding: 13px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src="script.js" defer></script>
+    <link href="testStyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <table id="table">
+        <tr>
+          <th>Price</th><th>Instance</th><th>vCPUs</th><th>Memory</th><th>Storage</th><th>Network</th><th>Price</th><th>Region</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td><td>Maria Anders</td><td>Germany</td><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td><td>Francisco Chang</td><td>Mexico</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+        </tr>
+    </table>
+
+    <form id="export-form">
+        <input type="radio" id="ef0" value="0">
+        <label for="ef0">Provider</label>
+        <input type="radio" id="ef1" value="1">
+        <label for="ef1">Instance</label>
+        <input type="radio" id="ef2" value="2">
+        <label for="ef2">vCPUs</label>
+        <input type="radio" id="ef3" value="3">
+        <label for="ef3">Memory</label>
+        <input type="radio" id="ef4" value="4">
+        <label for="ef4">Storage</label>
+        <input type="radio" id="ef5" value="5">
+        <label for="ef5">Network</label>
+        <input type="radio" id="ef6" value="6">
+        <label for="ef6">Price</label>
+        <input type="radio" id="ef7" value="7">
+        <label for="ef7">Region</label>
+        <button id="export" type="reset" onclick="prepareExportData()">Export</button>
+      </form>
+      <aside id="aside"></aside>
+
+      <button id="pcButton">Check price changes</button>
+
+      <div id="myModal" class="modal">
+      
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the Modal Body</p>
+            <p>Some other text...</p>
+          </div>
+          <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div>
+        </div>
+      
+      </div>
+</body>
+</html>
