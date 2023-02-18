@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <section id="content">
+            <form id="form">
+                <input required id="username" type="text" placeholder="Username">
+                <input required id="name" type="text" placeholder="First name">
+                <input required id="family-name" type="text" placeholder="Last name">
+                <input required id="email" type="email" placeholder="Email">
+                <input required id="password" type="password" placeholder="Password">
+                <input id="street" type="text" placeholder="Street">
+                <input id="city" type="text" placeholder="City">
+                <input id="postal-code" type="text" inputmode="numeric" pattern="(^$)|(^\d{4}$)|(^\d{5}-\d{4}$)" placeholder="Postal code">
+                <button id="register-btn" type="button">Register</button>
+            </form>
+        </section>
+        <p id="error" class="error"></p>
+        <p id="success"></p>
+    </body>
+</html>
